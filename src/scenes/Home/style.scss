@@ -1,0 +1,68 @@
+@import '../../styles/variables';
+
+.home {
+  position: relative;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+
+.home__banner {
+  width: 251px;
+  min-height: 357px;
+  margin-top: 40px;
+  padding: 30px 10px 10px 10px;
+  background: $mainColor;
+
+  .bannerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: $blackColor;
+
+    .title {
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    .image {
+      width: 126px;
+      height: 126px;
+    }
+
+    .text {
+      max-width: 126px;
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .btnSubmit {
+      width: 156px;
+      height: 52px;
+
+      &:hover {
+        color: $mainColor;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}

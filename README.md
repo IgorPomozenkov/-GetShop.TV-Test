@@ -1,1 +1,1 @@
-# -GetShop.TV-Test
+# GetShopTV-Test
